@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/New Event
+  Event: event:/New Event 2
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
