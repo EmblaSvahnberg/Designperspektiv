@@ -17,7 +17,7 @@ MonoBehaviour:
   StudioPath: bank:/Master.strings
   lastModified: 637683524040000000
   FileSizes:
-  - Name: 
+  - Name: Desktop
     Value: 884
   Exists: 1
 --- !u!114 &-1872283079916699559
@@ -131,5 +131,7 @@ MonoBehaviour:
   Name: Master
   StudioPath: bank:/Master
   lastModified: 637683524040000000
-  FileSizes: []
+  FileSizes:
+  - Name: Desktop
+    Value: 2390656
   Exists: 1
