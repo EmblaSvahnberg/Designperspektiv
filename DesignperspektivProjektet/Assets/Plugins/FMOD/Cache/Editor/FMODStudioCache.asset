@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/FMOD/ModelOfSociety/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637683510550000000
+  lastModified: 637683524040000000
   FileSizes:
   - Name: 
-    Value: 834
+    Value: 884
   Exists: 1
 --- !u!114 &-1872283079916699559
 MonoBehaviour:
@@ -61,13 +61,37 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -1872283079916699559}
   - {fileID: 2758860748935401276}
+  - {fileID: 415836403863787013}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5952056566557087974}
   StringsBanks:
   - {fileID: -2965906784660910624}
-  stringsBankWriteTime: 637683510550000000
+  stringsBankWriteTime: 637683524040000000
   cacheVersion: 8
+--- !u!114 &415836403863787013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Tredje g\xE5ngen gilt"
+  m_EditorClassIdentifier: 
+  Path: "event:/Tredje g\xE5ngen gilt"
+  guid: fa4641b277d9b842ae1f851503dd341f
+  Banks:
+  - {fileID: 5952056566557087974}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 70208
 --- !u!114 &2758860748935401276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,6 +130,6 @@ MonoBehaviour:
   Path: Assets/FMOD/ModelOfSociety/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637683510550000000
+  lastModified: 637683524040000000
   FileSizes: []
   Exists: 1

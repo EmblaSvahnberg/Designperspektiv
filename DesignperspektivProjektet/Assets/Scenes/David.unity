@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: "event:/Detta eventet ska finnas f\xF6r alla"
+  Event: "event:/Tredje g\xE5ngen gilt"
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
