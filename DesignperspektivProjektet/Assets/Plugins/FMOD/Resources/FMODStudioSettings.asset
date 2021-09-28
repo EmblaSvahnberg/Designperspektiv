@@ -344,8 +344,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/FMOD/ModelOfSociety/ModelOfSociety.fspro
-  sourceBankPath: Assets/FMOD/ModelOfSociety/Build
+  sourceProjectPath: ModelOfSociety/ModelOfSociety.fspro
+  sourceBankPath: ModelOfSociety/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 0
