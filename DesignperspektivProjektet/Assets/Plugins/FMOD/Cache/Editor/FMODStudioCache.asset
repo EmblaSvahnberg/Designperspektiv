@@ -43,6 +43,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 75200
+--- !u!114 &-6083608348363023363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Tredje g\xE5ngen gilt"
+  m_EditorClassIdentifier: 
+  Path: "event:/Tredje g\xE5ngen gilt"
+  guid: fa4641b277d9b842ae1f851503dd341f
+  Banks:
+  - {fileID: 6131040645676112771}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 70208
 --- !u!114 &-4608493573872227414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,6 +109,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 884
   Exists: 1
+--- !u!114 &-2627417450451151094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Detta eventet ska finnas f\xF6r alla"
+  m_EditorClassIdentifier: 
+  Path: "event:/Detta eventet ska finnas f\xF6r alla"
+  guid: e2e2630b83715e4a95f04d81ebc27837
+  Banks:
+  - {fileID: 6131040645676112771}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 75200
 --- !u!114 &-1872283079916699559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +178,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 70208
+--- !u!114 &-431795909138134175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Kanske det h\xE4r med"
+  m_EditorClassIdentifier: 
+  Path: "event:/Kanske det h\xE4r med"
+  guid: a77ff2be21e0344ab22fae16382ab17f
+  Banks:
+  - {fileID: 6131040645676112771}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 84000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,17 +214,17 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 1485600240111590817}
-  - {fileID: -9140985343512722728}
+  - {fileID: 1152666572716443308}
+  - {fileID: 6131040645676112771}
   EditorEvents:
-  - {fileID: -4608493573872227414}
-  - {fileID: -8560290256596077522}
-  - {fileID: -1471372047324863670}
+  - {fileID: -431795909138134175}
+  - {fileID: -2627417450451151094}
+  - {fileID: -6083608348363023363}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -9140985343512722728}
+  - {fileID: 6131040645676112771}
   StringsBanks:
-  - {fileID: 1485600240111590817}
+  - {fileID: 1152666572716443308}
   stringsBankWriteTime: 637683554410000000
   cacheVersion: 8
 --- !u!114 &415836403863787013
@@ -181,6 +250,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 70208
+--- !u!114 &1152666572716443308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637683554410000000
+  FileSizes:
+  - Name: Desktop
+    Value: 884
+  Exists: 1
 --- !u!114 &1485600240111590817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,6 +326,26 @@ MonoBehaviour:
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/ModelOfSociety/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637683554410000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2390656
+  Exists: 1
+--- !u!114 &6131040645676112771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
   lastModified: 637683554410000000
