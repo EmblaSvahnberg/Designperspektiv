@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{3fdccc6b-2aec-4856-917e-6e2d4e9b30e9}">
+		<property name="assetPath">
+			<value>Radio Noise-SigGen_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>84</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5109ce53-b44c-442d-8413-c6ffd2dce1b4}</destination>
+		</relationship>
+	</object>
+</objects>
